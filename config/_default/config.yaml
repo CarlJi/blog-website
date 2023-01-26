@@ -16,6 +16,10 @@ cascade:
       path: /docs/**
     editable: true
     show_breadcrumb: true
+  # giscus comment    
+  - _target:
+      path: /docs/**
+    commentable: true
 
 ############################
 ## LANGUAGE
