@@ -73,17 +73,20 @@ features:
       positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/<USERNAME>/<REPO>/issues/new).'
       negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/<USERNAME>/<REPO>/issues/new).'
   comment:
-    provider: ''
+    provider: 'giscus'
     disqus:
       shortname: ''
       show_count: true
     commento:
       url: ''
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'CarlJi/blog-website'
+      repo_id: 'R_kgDOI1Ovvw'
+      category: 'General'
+      category_id: 'DIC_kwDOI1Ovv84CTzxq'
+      theme: preferred_color_scheme
+      language_code: en
+      mapping: pathname
   search:
     provider: wowchemy
     algolia:

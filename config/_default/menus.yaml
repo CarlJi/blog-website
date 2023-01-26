@@ -7,6 +7,12 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+  - name: 系列
     url: docs/
     weight: 20
+  - name: 博客
+    url: posts/
+    weight: 20   
+  - name: go覆盖率
+    url: coverages/
+    weight: 20      
