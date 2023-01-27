@@ -4,15 +4,18 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 主页
     url: /
     weight: 10
-  - name: 系列
-    url: docs/
-    weight: 20
   - name: 博客
     url: posts/
-    weight: 20   
-  - name: go覆盖率
-    url: coverages/
-    weight: 20      
+    weight: 11     
+  - name: 云原生工程效率
+    url: ep/
+    weight: 13
+  - name: 质量保障与测试技术
+    url: qa/
+    weight: 14   
+  - name: 技术领导力
+    url: leaderships/
+    weight: 15
